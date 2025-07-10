@@ -1,2 +1,40 @@
 
 /* Your CSS Code here. */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 10px;
+}
+
+/* Header row */
+th {
+  background-color: #b34343; /* dark red */
+  color: white;
+}
+
+/* Waist row */
+tr:nth-child(2) td {
+  background-color: #db7d7d; /* lighter red */
+}
+
+/* Chest row */
+tr:nth-child(3) td {
+  background-color: #f4dede; /* light pink */
+}
+
+/* Sleeve row */
+tr:nth-child(4) td {
+  background-color: #d3d3d3; /* light gray */
+}
+
+/* First column (Part labels) */
+td:first-child {
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
